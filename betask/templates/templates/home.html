@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+</head>
+<body>
+<h1>Home</h1>
+
+<textarea rows="4" cols="50" name="input" form="form">
+	Enter string here</textarea>
+
+<form method="POST" id='form'>
+	{% csrf_token %}
+
+	<p>Filtrations:</p>
+
+	<input type="radio" id="ext_num" name="choice" value="ext_num">
+	<label for="ext_num">Extract number from string</label><br>
+
+	<input type="radio" id="ext_date" name="choice" value="ext_date">
+	<label for="ext_date">Extract date from url string</label><br>
+
+	<input type="radio" id="ext_string" name="choice" value="ext_string">
+	<label for="ext_string">Extract string within single quotes</label><br>  
+
+	<input type="radio" id="val_email" name="choice" value="val_email">
+	<label for="val_email">Email validator</label><br>
+
+	<input type="radio" id="val_ip" name="choice" value="val_ip">
+	<label for="val_ip">Validation of IP address and determining class</label><br>
+
+	<input type="radio" id="val_mac" name="choice" value="val_mac">
+	<label for="val_mac">Validation of MAC address</label><br>
+
+	<input type="radio" id="cam_2_snake" name="choice" value="cam_2_snake">
+	<label for="cam_2_snake">Camel case to snake case</label><br><br>
+
+
+	<button type="submit">Submit</button>
+	
+</form>
+
+	<br>
+	<a href="/">Dont have an account? Sign up here.</a><br><br>
+
+{% if message %}
+{% for i in message %}
+<p>{{i}}</p>
+{% endfor %}
+{% endif %}
+
+{% if message2 %}
+<p>{{message2}}</p>
+{% endif %}
+
+</body>
+</html>
