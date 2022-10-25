@@ -1,0 +1,299 @@
+oslab-08@oslab08-OptiPlex-5060:~/33166$ bash addressbk.sh
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+1
+Enter filename
+Address
+
+ Enter ID
+^C
+oslab-08@oslab08-OptiPlex-5060:~/33166$ bash addressbk.sh
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+1
+Enter filename
+AddressBook
+
+ Enter ID
+33165
+
+ Enter Name
+Rahul
+Enter Phone Number of Rahul
+987654123
+Enter Address of Rahul
+Nagpur
+Enter 0 to Stop, 1 to Enter next
+0
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+2
+ID 	 NAME 	 NUMBER 	 	 ADDRESS 
+ =============================== 
+
+33166 	 Garima 	 987654321 	 	 Pune
+ 33165 	 Rahul 	 987654123 	 	 Nagpur
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+3
+
+ Enter ID
+33167
+
+Enter Name
+Ritesh
+Enter Phone Number of Ritesh
+8976542422
+Enter Address of Ritesh
+Kashmir
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+2
+ID 	 NAME 	 NUMBER 	 	 ADDRESS 
+ =============================== 
+
+33166 	 Garima 	 987654321 	 	 Pune
+ 33165 	 Rahul 	 987654123 	 	 Nagpur
+33167 	 Ritesh 	 8976542422 	 	 Kashmir
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+3
+
+ Enter ID
+33168
+
+Enter Name
+Safiya
+Enter Phone Number of Safiya
+987654312
+Enter Address of Safiya
+Orissa
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+3
+
+ Enter ID
+33169
+
+Enter Name
+Samyak
+Enter Phone Number of Samyak
+768954321
+Enter Address of Samyak
+Nashik
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+2
+ID 	 NAME 	 NUMBER 	 	 ADDRESS 
+ =============================== 
+
+33166 	 Garima 	 987654321 	 	 Pune
+ 33165 	 Rahul 	 987654123 	 	 Nagpur
+33167 	 Ritesh 	 8976542422 	 	 Kashmir
+33168 	 Safiya 	 987654312 	 	 Orissa
+33169 	 Samyak 	 768954321 	 	 Nashik
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+4
+Delete record 
+Enter ID:
+33165
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+2
+ID 	 NAME 	 NUMBER 	 	 ADDRESS 
+ =============================== 
+
+33166 	 Garima 	 987654321 	 	 Pune
+33167 	 Ritesh 	 8976542422 	 	 Kashmir
+33168 	 Safiya 	 987654312 	 	 Orissa
+33169 	 Samyak 	 768954321 	 	 Nashik
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+5
+Modify record 
+ Enter ID:
+33169
+Enter Name
+SAMYAK
+Enter Phone Number of SAMYAK
+786543219
+Enter Address of SAMYAK
+NASHIK
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+2
+ID 	 NAME 	 NUMBER 	 	 ADDRESS 
+ =============================== 
+
+33166 	 Garima 	 987654321 	 	 Pune
+33167 	 Ritesh 	 8976542422 	 	 Kashmir
+33168 	 Safiya 	 987654312 	 	 Orissa
+SAMYAK	786543219	NASHIK
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+3
+
+ Enter ID
+33169
+
+Enter Name
+SAMYAK
+Enter Phone Number of SAMYAK
+786543219
+Enter Address of SAMYAK
+NASHIK
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+2
+ID 	 NAME 	 NUMBER 	 	 ADDRESS 
+ =============================== 
+
+33166 	 Garima 	 987654321 	 	 Pune
+33167 	 Ritesh 	 8976542422 	 	 Kashmir
+33168 	 Safiya 	 987654312 	 	 Orissa
+SAMYAK	786543219	NASHIK
+33169 	 SAMYAK 	 786543219 	 	 NASHIK
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+6
+oslab-08@oslab08-OptiPlex-5060:~/33166$ bash addressbk.sh
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+4
+Delete record 
+Enter ID:
+SAMYAK
+1
+6
+^C
+oslab-08@oslab08-OptiPlex-5060:~/33166$ bash addressbk.sh
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+1
+Enter filename
+AddressBook
+
+ Enter ID
+33172
+
+ Enter Name
+Soham
+Enter Phone Number of Soham
+79865412
+Enter Address of Soham
+Pune
+Enter 0 to Stop, 1 to Enter next
+0
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+2
+ID 	 NAME 	 NUMBER 	 	 ADDRESS 
+ =============================== 
+
+33166 	 Garima 	 987654321 	 	 Pune
+33167 	 Ritesh 	 8976542422 	 	 Kashmir
+33168 	 Safiya 	 987654312 	 	 Orissa
+SAMYAK	786543219	NASHIK
+33169 	 SAMYAK 	 786543219 	 	 NASHIK
+ 33172 	 Soham 	 79865412 	 	 Pune
+Choose one of the Following 
+ 1. Create a New Address Book 
+ 2. View Records 
+ 3. Insert new Record 
+ 4. Delete a Record 
+ 5. Modify a Record 
+ 6. Exit
+  
+
+
